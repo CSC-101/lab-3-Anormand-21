@@ -8,8 +8,8 @@ class Lab3TestCases(unittest.TestCase):
         self.assertEqual(expected, result)
 
     def test_double_two(self):
-        result = functions.double(3)
-        expected = 6
+        result = functions.double(3) #result:9
+        expected = 6 #expected:6
         self.assertEqual(expected, result)
 
 
